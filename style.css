@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    min-height: 100vh; 
+  width: 100vw; 
+  background-image: url("Craywingz.jpg");
+  background-repeat:no-repeat;
+  background-size:cover;
+  background-position:center;
+
+}
+header {
+    background-color: #036d07;
+    color: white;
+    padding: 30px 0;
+    text-align: center;
+}
+header h1 {
+    font-size:25px;
+    text-transform: uppercase;
+    font-style: italic;
+    font-weight: bold;
+}
+.navbar {
+    background-color: #f5b506;
+    overflow: hidden;
+    display:flex;
+    justify-content: space-between;
+    padding: 20px 10px;}
+
+    .navbar h1{
+        font-size: 40px;
+        color: #f8f8f8;
+        text-transform: uppercase;
+    
+        font-weight: bold;
+    }
+.navbar a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.sec{
+  
+ margin-bottom:-2500px;
+    text-align: center;
+    margin: 20px 0;
+    font-size: 35px;
+    font-weight: bolder;
+    color: #f10000;
+}
+footer {
+    background-color: #036d07;
+    color: white;
+    font-weight: bolder;
+    font-size: 30px;
+    text-align: center;
+    padding: 40px 0;
+    position: relative;
+    
+    width: 100%;
+    bottom:-1000px;
+}        
+
+
+.product-card {
+  width: 280px;
+  padding: 15px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  background-color: #fff;
+
+  margin: auto; /* center horizontally */
+}
+
+.product-card img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+figure {
+  margin: 0;
+}
+
+figcaption {
+  margin-top: 8px;
+  font-weight: bold;
+}
+
+article{
+    background-color:#f10000;
+}
