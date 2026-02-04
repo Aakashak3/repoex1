@@ -70,40 +70,51 @@ footer {
     width: 100%;
     bottom:-1000px;
 }        
-
-
-.product-card {
-  width: 280px;
-  padding: 15px;
-
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  text-align: center;
-
-  border: 1px solid #ddd;
-  border-radius: 10px;
-  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
-  background-color: #fff;
-
-  margin: auto; /* center horizontally */
-}
-
-.product-card img {
-  width: 100%;
-  height: auto;
-  border-radius: 8px;
-}
-
-figure {
-  margin: 0;
-}
-
-figcaption {
-  margin-top: 8px;
-  font-weight: bold;
-}
-
 article{
-    background-color:#f10000;
+  margin-bottom:100px;
+  padding: 0px 90px;
 }
+figure img{
+  
+  box-shadow:0px 0px  30px #00df07;
+  border-radius:30px;
+  margin-bottom:30px;
+}
+
+
+.content figcaption{
+  position: relative;
+  width: 30%;
+  text-align: center;
+  padding:5px;
+  font-weight: bold;
+  font-size:20px;
+}
+  article p{
+   position: relative;
+
+  width: 30%;
+  text-align: center;
+  padding:5px;
+  font-weight: bold;
+  font-size:20px;
+}
+button{
+   position: relative;
+  background-color: #eeb10a;
+  width: 10%;
+  text-align: center;
+  padding:5px;
+  font-weight: bold;
+  font-size:20px;
+  border-radius:15px;
+  margin-right:-50%;
+}
+
+  aside{
+  position: relative;
+  width: 30%; 
+  background-color: #f5b506;
+  margin-top:-700px;
+  margin-left:70%;
+  }
